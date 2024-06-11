@@ -11,19 +11,22 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto(nome: " + nome + ", preco: " + preco + ")";
+        return "Produto(nome = " + nome + ", preco = " + preco + ")";
     }
 
     public boolean estaVencido(Data data) {
         if (data.getAno() > dataValidade.getAno()) {
             return true;
-        } else if (data.getAno() == dataValidade.getAno() && data.getMes() > dataValidade.getMes()) {
-            return true;
-        } else if (data.getAno() == dataValidade.getAno() && data.getMes() == dataValidade.getMes() && data.getDia() > dataValidade.getDia()) {
-            return true;
-        } else {
-            return false;
         }
+        if (data.getAno() == dataValidade.getAno()) {
+            if (data.getMes() > dataValidade.getMes()) {
+                return true;
+            }
+            if (data.getMes() == dataValidade.getMes() && data.getDia() > dataValidade.getDia()) {
+                return true;
+            }
+        }
+        return false;
     }
 
 

@@ -13,13 +13,13 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco(nomeDaRua: " + nomeDaRua +
-                ", cidade: " + cidade  +
-                ", estado: " + estado +
-                ", pais: " + pais +
-                ", cep: " + cep +
-                ", numero: " + numero +
-                ", complemento: " + complemento + ")";
+        return "Endereco(nomeDaRua = " + nomeDaRua +
+                ", cidade = " + cidade  +
+                ", estado = " + estado +
+                ", pais = " + pais +
+                ", cep = " + cep +
+                ", numero = " + numero +
+                ", complemento = " + complemento + ")";
     }
 
     public String getNomeDaRua() {

@@ -23,7 +23,7 @@ public class Loja {
 
     @Override
     public String toString() {
-        return "Loja(nome: " + nome + ", quantidadeFuncionarios: " + quantidadeFuncionarios + ", salarioBaseFuncionario: " + salarioBaseFuncionario + ")";
+        return "Loja(nome = " + nome + ", quantidadeFuncionarios = " + quantidadeFuncionarios + ", salarioBaseFuncionario = " + salarioBaseFuncionario + ")";
     }
 
     public double gastosComSalario() {

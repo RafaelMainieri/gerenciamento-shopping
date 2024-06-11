@@ -11,7 +11,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto(nome = " + nome + ", preco = " + preco + ")" + "\n" +dataValidade;
+        return "Produto(nome = " + nome + ", preco = " + preco + ")" + "\n" + dataValidade;
     }
 
     public boolean estaVencido(Data data) {

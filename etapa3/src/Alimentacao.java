@@ -8,7 +8,7 @@ public class Alimentacao extends Loja{
 
     @Override
     public String toString() {
-        return super.toString() + "\nData Alvara: " + dataAlvara;
+        return super.toString() + "\nData Alvara = " + dataAlvara;
     }
 
     public Data getDataAlvara() {

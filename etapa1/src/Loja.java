@@ -17,8 +17,9 @@ public class Loja {
 
     @Override
     public String toString() {
-        return "Loja(nome: " + nome + ", quantidadeFuncionarios: " + quantidadeFuncionarios + ", salarioBaseFuncionarios: " + salarioBaseFuncionario + ")";
+        return "Loja(Nome = " + nome +"QuantidadeFuncionarios = " + quantidadeFuncionarios + "SalarioBaseFuncionario = " + salarioBaseFuncionario + ")";
     }
+
 
     public double gastosComSalario() {
         if (salarioBaseFuncionario == -1) return -1;
@@ -35,27 +36,27 @@ public class Loja {
         }
     }
 
+
     public String getNome() {
         return nome;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
 
+
     public int getQuantidadeFuncionarios() {
         return quantidadeFuncionarios;
     }
-
     public void setQuantidadeFuncionarios(int quantidadeFuncionarios) {
         this.quantidadeFuncionarios = quantidadeFuncionarios;
     }
 
+
     public double getSalarioBaseFuncionario() {
         return salarioBaseFuncionario;
     }
-
-    public void setSalarioBaseFuncionario(double salarioBaseFuncionarios) {
-        this.salarioBaseFuncionario = salarioBaseFuncionarios;
+    public void setSalarioBaseFuncionario(double salarioBaseFuncionario) {
+        this.salarioBaseFuncionario = salarioBaseFuncionario;
     }
 }

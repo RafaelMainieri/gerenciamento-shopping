@@ -8,7 +8,7 @@ public class Bijuteria extends Loja{
 
     @Override
     public String toString() {
-        return super.toString() + "\nMeta Vendas: " + metaVendas;
+        return super.toString() + "\nMeta Vendas = " + metaVendas;
     }
 
     public double getMetaVendas() {

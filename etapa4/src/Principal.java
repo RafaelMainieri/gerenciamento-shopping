@@ -62,7 +62,12 @@ public class Principal {
                 int ano = input.nextInt();
 
                 Data dataLoja = new Data(dia, mes, ano);
-                loja = new Loja(nome, quantidadeFuncionarios, salarioBaseFuncionarios, endereco, dataLoja);
+
+                loja.setNome(nome);
+                loja.setQuantidadeFuncionarios(quantidadeFuncionarios);
+                loja.setSalarioBaseFuncionario(salarioBaseFuncionarios);
+                loja.setEndereco(endereco);
+                loja.setDataFundacao(dataLoja);
 
                 System.out.println(loja);
             } else if (opcao == 2) {

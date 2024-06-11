@@ -8,7 +8,7 @@ public class ValidadorEtapa1 {
 		System.out.println("[OK] Classe Loja identificada (construtor com dois parâmetros)");
 		
 		Loja loja2 = new Loja ("E7", 20, 2000);
-		System.out.println("[OK] Classe Loja identificada (construtor com três parâmetros)");
+		System.out.println("[OK] Classe Loja zidentificada (construtor com três parâmetros)");
 		
 		//public String getNome();
 		System.out.println(loja1.getNome().equals("E3") ? "[OK] Método Loja.getNome()" : "[NOK] Método Loja.getNome()");
